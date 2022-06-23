@@ -1,0 +1,98 @@
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.exe
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.deps.json
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.runtimeconfig.json
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.runtimeconfig.dev.json
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.pdb
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Google.Protobuf.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Humanizer.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\MySql.Data.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\ZstdNet.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\MySql.EntityFrameworkCore.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.AssemblyReference.cache
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\App.g.cs
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice_MarkupCompile.cache
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice_MarkupCompile.lref
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\MainWindow.baml
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.g.resources
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.GeneratedMSBuildEditorConfig.editorconfig
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.AssemblyInfoInputs.cache
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.AssemblyInfo.cs
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.CoreCompileInputs.cache
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.CopyComplete
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\refint\AIS Practice.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.pdb
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.genruntimeconfig.cache
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\ref\AIS Practice.dll
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\Avtorisation.g.cs
+E:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\Avtorisation.baml
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.exe
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.deps.json
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.runtimeconfig.json
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.runtimeconfig.dev.json
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\ref\AIS Practice.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\AIS Practice.pdb
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Google.Protobuf.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Humanizer.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\MySql.Data.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\ZstdNet.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\MySql.EntityFrameworkCore.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.AssemblyReference.cache
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\Avtorisation.g.cs
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\App.g.cs
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice_MarkupCompile.cache
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice_MarkupCompile.lref
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\Avtorisation.baml
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\MainWindow.baml
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.g.resources
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.AssemblyInfoInputs.cache
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.AssemblyInfo.cs
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.CoreCompileInputs.cache
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.csproj.CopyComplete
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\ref\AIS Practice.dll
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.pdb
+D:\майер\вторая неделя\AIS Practice\AIS Practice\obj\Debug\net5.0-windows\AIS Practice.genruntimeconfig.cache
