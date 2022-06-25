@@ -23,6 +23,7 @@ namespace AIS_Practice
     {
         private group_4_is_31Context _dbContext = new group_4_is_31Context(); //Контекст БД
         private bool _isLogin = false; //Залогинились ли
+        public static User CurrentUser; //Текущий пользователь
 
         public Avtorisation()
         {
@@ -31,7 +32,7 @@ namespace AIS_Practice
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            try
+            try //Попытка
             {
                 User user = _dbContext.Users.Where(
                     (usr) => usr.Login == loginTextBox.Text && usr.Password == passwordTextBox.Text
@@ -39,9 +40,10 @@ namespace AIS_Practice
                 MessageBox.Show($"Привет, {user.Login}!", "Успешно!");
 
                 _isLogin = true;
+                CurrentUser = user;
                 Close(); //Закрываем окно
             }
-            catch
+            catch //Обработка исключения
             {
                 MessageBox.Show("Ошибка!", "Неверный логин или пароль!");
             }
@@ -52,5 +54,7 @@ namespace AIS_Practice
             if (!_isLogin)
                 App.Current.Shutdown(); //Завершение работы приложения
         }
+
+        
     }
 }

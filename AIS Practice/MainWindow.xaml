@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <TabControl>
-        <TabItem Header="Пользователи" FontSize="16">
+        <TabItem Header="Пользователи" FontSize="16" Name="usersTab" GotFocus="usersTab_GotFocus">
             <DockPanel>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8"> 
-                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButtonUser_Click"/>
-                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButtonUser_Click"/>
+                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButton_Click"/>
+                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButton_Click"/>
+                    <Button Content="Экспорт" Padding="8 2 8 2" Margin="8 0 0 0" Click="ExportButton_Click" />
                 </StackPanel>
 
                 <DataGrid 
@@ -24,11 +25,12 @@
             </DockPanel>
         </TabItem>
 
-        <TabItem Header="Поставщики" FontSize="16">
+        <TabItem Header="Поставщики" FontSize="16" Name="suppliesTab" GotFocus="suppliesTab_GotFocus">
             <DockPanel>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8">
-                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButtonSupplies_Click"/>
-                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButtonSupplies_Click"/>
+                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButton_Click"/>
+                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButton_Click"/>
+                    <Button Content="Экспорт" Padding="8 2 8 2" Margin="8 0 0 0" Click="ExportButton_Click" />
                 </StackPanel>
 
                 <DataGrid 
@@ -41,11 +43,12 @@
             </DockPanel>
         </TabItem>
 
-        <TabItem Header="Персонал" FontSize="16">
+        <TabItem Header="Персонал" FontSize="16" Name="staffTab" GotFocus="staffTab_GotFocus">
             <DockPanel>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8">
-                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButtonStaff_Click"/>
-                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButtonStaff_Click"/>
+                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButton_Click"/>
+                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButton_Click"/>
+                    <Button Content="Экспорт" Padding="8 2 8 2" Margin="8 0 0 0" Click="ExportButton_Click" />
                 </StackPanel>
 
                 <DataGrid 
@@ -58,11 +61,12 @@
             </DockPanel>   
         </TabItem>
 
-        <TabItem Header="Каталог товаров" FontSize="16">
+        <TabItem Header="Каталог товаров" FontSize="16" Name="katalogTab" GotFocus="katalogTab_GotFocus">
             <DockPanel>
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8">
-                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButtonKatalog_Click"/>
-                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButtonKatalog_Click"/>
+                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButton_Click"/>
+                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButton_Click"/>
+                    <Button Content="Экспорт" Padding="8 2 8 2" Margin="8 0 0 0" Click="ExportButton_Click" />
                 </StackPanel>
 
                 <DataGrid 
@@ -72,6 +76,34 @@
                     AutoGeneratingColumn="KatalogDG_AutoGeneratingColumn"
                     >
                 </DataGrid>
+            </DockPanel>
+        </TabItem>
+
+        <TabItem Header="Продажи" FontSize="16" Name="saleTab" GotFocus="saleTab_GotFocus">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8">
+                    <Button Content="Сохранить" Margin="0 0 8 0" Padding="8 2 8 2" Click="SaveButton_Click"/>
+                    <Button Content="Удалить" Padding="8 2 8 2" Click="DeleteButton_Click"/>
+                    <Button Content="Экспорт" Padding="8 2 8 2" Margin="8 0 0 0" Click="ExportButton_Click" />
+                </StackPanel>
+
+                <DataGrid 
+                    Name = "saleDG" 
+                    DockPanel.Dock="Bottom" 
+                    Margin="8 0 8 8"
+                    AutoGeneratingColumn="saleDG_AutoGeneratingColumn"
+                    >
+                </DataGrid>
+            </DockPanel>
+        </TabItem>
+
+        <TabItem Header="Отчеты">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="8">
+                    <Button Content="Продажи" Click="ReportSalesButton_Click"/>
+                </StackPanel>
+
+                <DataGrid Name="reportDG" DockPanel.Dock="Bottom" Margin="8 0 8 8" AutoGeneratingColumn="reportDG_AutoGeneratingColumn"></DataGrid>
             </DockPanel>
         </TabItem>
     </TabControl>

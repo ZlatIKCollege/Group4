@@ -13,7 +13,9 @@ namespace AIS_Practice.Entities
         public string Password { get; set; }
         public string Address { get; set; }
         public int? PhoneNumber { get; set; }
+        public int? Staff { get; set; }
 
         public virtual Role RoleNavigation { get; set; }
+        public virtual staff StaffNavigation { get; set; }
     }
 }

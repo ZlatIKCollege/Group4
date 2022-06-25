@@ -19,6 +19,7 @@ namespace AIS_Practice.Entities
 
         public virtual DbSet<Katalog> Katalogs { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<Sale> Sales { get; set; }
         public virtual DbSet<Supply> Supplies { get; set; }
         public virtual DbSet<Type> Types { get; set; }
         public virtual DbSet<User> Users { get; set; }
@@ -39,6 +40,8 @@ namespace AIS_Practice.Entities
             {
                 entity.ToTable("Katalog");
 
+                entity.HasIndex(e => e.Price, "FK_Sales");
+
                 entity.HasIndex(e => e.Type, "FK_Types");
 
                 entity.Property(e => e.Id).HasColumnName("ID");
@@ -54,9 +57,16 @@ namespace AIS_Practice.Entities
                     .HasColumnName("name")
                     .HasDefaultValueSql("''");
 
+                entity.Property(e => e.Price).HasColumnName("price");
+
                 entity.Property(e => e.ReleaseDate).HasColumnName("releaseDate");
 
                 entity.Property(e => e.Type).HasColumnName("type");
+
+                entity.HasOne(d => d.PriceNavigation)
+                    .WithMany(p => p.Katalogs)
+                    .HasForeignKey(d => d.Price)
+                    .HasConstraintName("FK_Sales");
 
                 entity.HasOne(d => d.TypeNavigation)
                     .WithMany(p => p.Katalogs)
@@ -73,6 +83,29 @@ namespace AIS_Practice.Entities
                     .IsRequired()
                     .HasMaxLength(50)
                     .HasColumnName("name");
+            });
+
+            modelBuilder.Entity<Sale>(entity =>
+            {
+                entity.ToTable("Sale");
+
+                entity.HasIndex(e => e.Product, "FK_Product");
+
+                entity.HasIndex(e => e.Staff, "FK_Staffs");
+
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.HasOne(d => d.ProductNavigation)
+                    .WithMany(p => p.Sales)
+                    .HasForeignKey(d => d.Product)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Product");
+
+                entity.HasOne(d => d.StaffNavigation)
+                    .WithMany(p => p.Sales)
+                    .HasForeignKey(d => d.Staff)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_Staffs");
             });
 
             modelBuilder.Entity<Supply>(entity =>
@@ -108,6 +141,8 @@ namespace AIS_Practice.Entities
             {
                 entity.HasIndex(e => e.Role, "FK_Role");
 
+                entity.HasIndex(e => e.Staff, "FK_Staff");
+
                 entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.Address)
@@ -132,11 +167,18 @@ namespace AIS_Practice.Entities
 
                 entity.Property(e => e.Role).HasColumnName("role");
 
+                entity.Property(e => e.Staff).HasColumnName("staff");
+
                 entity.HasOne(d => d.RoleNavigation)
                     .WithMany(p => p.Users)
                     .HasForeignKey(d => d.Role)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Role");
+
+                entity.HasOne(d => d.StaffNavigation)
+                    .WithMany(p => p.Users)
+                    .HasForeignKey(d => d.Staff)
+                    .HasConstraintName("FK_Staff");
             });
 
             modelBuilder.Entity<staff>(entity =>
